@@ -463,7 +463,7 @@ Tabs.Rebirth:AddToggle("FastRebirthsToggle", {
 }):OnChanged(function(state)
     if state then
         local success, err = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeusLGD/Fast-Rebirth-2/refs/heads/main/ZeusLGD"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zeusxwq7/F-R/refs/heads/main/Zeusxwq7"))()
         end)
         if success and _G.startFastGrind then
             _G.startFastGrind()
